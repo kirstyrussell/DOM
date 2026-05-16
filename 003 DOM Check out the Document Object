@@ -1,0 +1,23 @@
+/!--
+All the content of the HTML and CSS is interpreted and stored in the document object under the window object. You can console log the document to see what is there. Since repl doesn't do a full console log message of DOM elements, you should try it locally on your computer. Create an index.html file and open it with Chrome.
+
+To pass this exercise, I just want you to do the following.
+
+In the script tag, assign the document object to the doc variable
+--/
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script>
+      var doc = document;
+      console.log(doc);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

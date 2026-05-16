@@ -1,0 +1,22 @@
+/!--
+The other way to add JavaScript to your page is by linking a JavaScript file. For this, we also use the script tag. Except, we put a src attribute in the opening tag. Like this:
+<script src="index.js"></script>
+
+Add a script tag to link the index.js file in the <head> tag.
+
+Note: we don't support multiple files on the platform so we can't write any code in index.js. You can try this locally on your computer though.
+--/
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <!-- Add your script tag below -->
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript doesn't bite.</h1>
+  </body>
+</html>

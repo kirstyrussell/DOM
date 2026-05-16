@@ -1,0 +1,23 @@
+/!--
+Each element in the HTML file is a node, and different elements have different nodeTypes.
+
+What is the nodeType of the <p> element?
+
+    Assign the correct NodeType of P to the nodeTypeOfP variable (hint: it's a number).
+--/
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p>What is my Node Type?</p>
+    <script>
+      var nodeTypeOfP = 1;
+    </script>
+  </body>
+</html>
